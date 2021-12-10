@@ -69,5 +69,3 @@ After downloading data and pretrained models, run main.py.
 python test/run_test.py
 ```
 
-dfkdlfkdflsd
-
