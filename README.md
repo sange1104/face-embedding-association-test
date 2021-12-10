@@ -1,11 +1,11 @@
-# social-bias-in-face-recognition-code
-Code for paper "Measuring Embedded Human-like Biases in Face Recognition Models"   
+# Face Embedding Association Test (FEAT)
 
-* We do not provide dataset due to the memory issue in anonymous github.
+This repository contains a data and code for the paper **Measuring Embedded Human-like Biases in Face Recognition Models**, published at AAAI2022 Workshop on [Artificial Intelligence with Biased or Scarce Data](https://aibsdworkshop.github.io/2022/index.html). We introduced Face Embedding Association Test (FEAT), which is an extension of [Word Embedding Association Test](https://arxiv.org/pdf/1608.07187.pdf?ref=hackernoon.com) for face recognition models. 
 
-This is the repository for "Measuring Embedded Human-like Biases in Face Recognition Models". We implement Face Embedding Association Test (FEAT), which is a extended version of Word Embedding Association Test/Sentence Embedding Association Test (WEAT/SEAT) for pre-trained face recognition models.
 
-We provide a new dataset for Asian in ``data`` folder. This is code borrowed and modified from [this repo](https://github.com/candacelax/bias-in-vision-and-language) and [this repo](https://github.com/W4ngatang/sent-bias). 
+Data
+-------------
+Our dataset is in ``data`` folder. We employed dataset from [this repo](https://github.com/W4ngatang/sent-bias) and additionally collected dataset to test a wide range of social biases by using google search. 
 
 
 
@@ -53,4 +53,6 @@ After downloading data and pretrained models, run main.py.
 ```
 python test/run_test.py
 ```
+
+dfkdlfkdflsd
 
