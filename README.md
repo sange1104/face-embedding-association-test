@@ -37,7 +37,10 @@ Setup
 * Python == 3.6
 * TensorFlow == 2.4.1
 * Keras == 2.4.0
-
+* dlib
+* cv2
+* pillow
+* [skin](https://github.com/cirbuk/skin-detection)
 
 ### Download pre-trained models
 Download the pretrained models for:
