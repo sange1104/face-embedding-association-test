@@ -62,7 +62,9 @@ You can update the weights of the models by using links below:
 
 You can run ``run_test.py`` function to run FEAT test on openface, arcface, vggface, deepface, facenet, and deepid models.
 
-``test/run_test.py``
+```
+test/run_test.py
+```
 
 ### Experiment 2: Race sensitivity analysis
 
