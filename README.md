@@ -66,6 +66,6 @@ You can run ``run_test.py`` function to run FEAT test on openface, arcface, vggf
 
 ### Experiment 2: Race sensitivity analysis
 
-You can run `change_total` function in ``race_transformation/black_to_white.py`` to convert race black to white. 
-And `change_total` function in ``race_transformation/white_to_black.py`` to convert race white to black. 
+You can run `change_total(image_dir, output_dir, transformation_level)` function in ``race_transformation/black_to_white.py`` to convert race black to white. 
+And the same function in ``race_transformation/white_to_black.py`` to convert race white to black. 
 
