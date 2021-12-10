@@ -1,6 +1,6 @@
 # Face Embedding Association Test (FEAT)
 
-This repository contains a data and code for the paper **Measuring Embedded Human-like Biases in Face Recognition Models**, published at AAAI2022 Workshop on Artificial Intelligence with Biased or Scarce Data ([AIBSD])(https://aibsdworkshop.github.io/2022/index.html). We introduced Face Embedding Association Test (FEAT), which is an extension of Word Embedding Association Test ([WEAT])(https://arxiv.org/pdf/1608.07187.pdf?ref=hackernoon.com) for face recognition models. 
+This repository contains a data and code for the paper **Measuring Embedded Human-like Biases in Face Recognition Models**, published at AAAI2022 Workshop on Artificial Intelligence with Biased or Scarce Data [AIBSD](https://aibsdworkshop.github.io/2022/index.html). We introduced Face Embedding Association Test (FEAT), which is an extension of Word Embedding Association Test [WEAT](https://arxiv.org/pdf/1608.07187.pdf?ref=hackernoon.com) for face recognition models. 
 
 
 Data
