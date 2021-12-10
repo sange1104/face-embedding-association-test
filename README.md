@@ -28,6 +28,7 @@ Below is the data directory structure.
          ├ asian_female
          ├ black_female
          └ white_female
+</pre>
 
 
 Setup
