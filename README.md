@@ -71,3 +71,11 @@ python test/run_test.py
 You can run `change_total(image_dir, output_dir, transformation_level)` function in ``race_transformation/black_to_white.py`` to convert race black to white. 
 And the same function in ``race_transformation/white_to_black.py`` to convert race white to black. 
 
+Reference
+-------------
+
+
+
+
+
+
