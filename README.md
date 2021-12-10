@@ -31,9 +31,8 @@ Below is the data directory structure.
 </pre>
 
 
-Setup
+Experimental Setup
 -------------
-### Experimental requirements
 * Python == 3.6
 * TensorFlow == 2.4.1
 * Keras == 2.4.0
@@ -51,24 +50,22 @@ Download the pretrained models for:
 pip install keras-vggface
 ```
 
-
+You can update the weights of the models by using links below:
 * [FaceNet](https://drive.google.com/file/d/1971Xk5RwedbudGgTIrGAL4F7Aifu7id1/view)
 * [Deepface](https://github.com/swghosh/DeepFace/releases)
 * [DeepID](https://drive.google.com/file/d/1uRLtBCTQQAvHJ_KVrdbRJiCKxU8m5q2J/view)
 * [Openface](https://drive.google.com/file/d/1LSe1YCV1x-BfNnfb7DFZTNpv_Q9jITxn/view)
 * [Arcface](https://drive.google.com/uc?id=1LVB3CdVejpmGHM28BpqqkbZP5hDEcdZY)
 
-Note that you need to download pretrained model weights for each model at ``models``.
 
+### Experiment 1: FEAT on social biases (race, gender, age, intersectional)
 
-Experiment
--------------
-### FEAT
-We introduce Face Embedding Association Test (FEAT) by extending the prior works throughout face embeddings. FEAT compares the embeddings of face images, rather than sets of words or sentences, to demonstrate race and gender. A detailed explanation of FEAT is provided in our paper "Measuring Embedded Human-like Biases in Face Recognition Models". 
+You can run ``run_test.py`` function to run FEAT test on openface, arcface, vggface, deepface, facenet, and deepid models.
 
-### Details
-After downloading data and pretrained models, run main.py.
-```
-python test/run_test.py
-```
+``test/run_test.py``
+
+### Experiment 2: Race sensitivity analysis
+
+You can run ``change_total`` function in ``race_transformation/black_to_white.py`` to convert race black to white. 
+And ``change_total`` function in ``race_transformation/white_to_black.py`` to convert race white to black. 
 
