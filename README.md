@@ -5,8 +5,30 @@ This repository contains a data and code for the paper **Measuring Embedded Huma
 
 Data
 -------------
-Our dataset is in ``data`` folder. We employed dataset from [this repo](https://github.com/W4ngatang/sent-bias) and additionally collected dataset to test a wide range of social biases by using google search. 
+Our dataset is in ``data`` folder. We employed dataset from [this repo](https://github.com/W4ngatang/sent-bias) and additionally collected dataset to test a wide range of social biases by using google search. We only uploaded the dataset that we newly crawled. You can use ``crawl.py`` to crawl additional data. To get google image dataset, we use [google_images_download](https://pypi.org/project/google_images_download/) package. Please install the required package.
+```
+pip install google_images_download
+```   
+Below is the data directory structure. 
 
+<pre>/data/attributes  
+ ┬  
+ ├ [DIR] race 
+     └ [DIR] 8 asian attributes
+ ├ [DIR] age  
+     └ [DIR] 8 attributes
+         ├ young
+         └ old
+ ├ [DIR] intersectional 
+     ├ [DIR] competent 
+         ├ asian_female
+         ├ black_female
+         └ white_female
+     └ [DIR] incompetent 
+         ├ asian_female
+         ├ black_female
+         └ white_female
+</pre>
 
 
 Setup
@@ -15,14 +37,10 @@ Setup
 * Python == 3.6
 * TensorFlow == 2.4.1
 * Keras == 2.4.0
-
-### Dataset
-``data`` folder consists of ``targets`` and ``attributes``. We employ target images of all races from [UTKFace](https://susanqq.github.io/UTKFace/). For attributes images of European American and African American, we use images sourced from [Google Image dataset](https://github.com/candacelax/bias-in-vision-and-language/tree/703f559b1d81d51817d6fb7251b901efc28505b6/data/google-images). 
-
-You can also crawl additional attributes dataset using  ``attributes/crawl.py``. To get google image dataset, we use [google_images_download](https://pypi.org/project/google_images_download/) package. Please install the required package.
-```
-pip install google_images_download
-```
+* dlib
+* cv2
+* pillow
+* [skin](https://github.com/cirbuk/skin-detection)
 
 ### Download pre-trained models
 Download the pretrained models for:
@@ -53,6 +71,4 @@ After downloading data and pretrained models, run main.py.
 ```
 python test/run_test.py
 ```
-
-dfkdlfkdflsd
 
