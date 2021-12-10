@@ -5,7 +5,7 @@ This repository contains a data and code for the paper **Measuring Embedded Huma
 
 Data
 -------------
-Our dataset is in ``data`` folder. We employed dataset from [this repo](https://github.com/W4ngatang/sent-bias) and additionally collected dataset to test a wide range of social biases by using google search. We only uploaded the dataset that we newly crawled. You can use ``crawl.py`` to crawl additional data. To get google image dataset, we use [google_images_download](https://pypi.org/project/google_images_download/) package. Please install the required package.
+Our dataset is in ``data`` folder. We employed dataset from [this repo](https://github.com/candacelax/bias-in-vision-and-language) and additionally collected dataset to test a wide range of social biases by using google search. We only uploaded the dataset that we newly crawled. You can use ``crawl.py`` to crawl additional data. To get google image dataset, we use [google_images_download](https://pypi.org/project/google_images_download/) package. Please install the required package.
 ```
 pip install google_images_download
 ```   
