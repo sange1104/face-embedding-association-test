@@ -45,7 +45,7 @@ Experimental Setup
 Download the pretrained models for:
 * VGGFace
 
-> For VGGFace, we use [keras-vggface](https://pypi.org/project/keras-vggface/) package. Please install the required package.
+For VGGFace, you can use [keras-vggface](https://pypi.org/project/keras-vggface/) package. Please install the required package.
 ```
 pip install keras-vggface
 ```
