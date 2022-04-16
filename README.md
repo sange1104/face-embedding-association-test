@@ -73,6 +73,7 @@ And the same function in ``race_transformation/white_to_black.py`` to convert ra
 
 Reference
 -------------
+```
 @inproceedings{lee2022measuring,
   title={Measuring Embedded Human-Like Biases in Face Recognition Models},
   author={Lee, SangEun and Oh, Soyoung and Kim, Minji and Park, Eunil},
@@ -83,7 +84,7 @@ Reference
   year={2022},
   organization={MDPI}
 }
-
+```
 
 
 
